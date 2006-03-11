@@ -1,0 +1,26 @@
+--- ./Makefile.org	2004-11-19 00:05:10.000000000 +0000
++++ ./Makefile	2006-03-11 20:21:55.000000000 +0000
+@@ -13,8 +13,9 @@
+ 
+ DOC_INTERMEDIATE = template-engine.dvi
+ DOC_FILE = template-engine.pdf
++CC	= gcc
+ 
+-CFLAGS = -Wall -fpic
++CFLAGS	= -Wall -fpic
+ 
+ all: $(STATIC_LIBRARY) test 
+ 
+@@ -28,10 +29,10 @@
+ 	dvipdfm template-engine
+ 
+ test: test.o $(STATIC_LIBRARY)
+-	gcc test.o -L. -ltemplate -o $@
++	$(CC) test.o -L. -ltemplate -o $@
+ 
+ templatetest: 
+-	gcc -ggdb main.o template.o tree.o -o $@
++	$(CC) -ggdb main.o template.o tree.o -o $@
+ 
+ clean:
+ 	rm -f *.o *~ templatetest $(DYNAMIC_LIBRARY) $(STATIC_LIBRARY)
