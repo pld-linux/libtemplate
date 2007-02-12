@@ -1,7 +1,7 @@
 # TODO:
 # - modify the library to build dynamic-one
 Summary:	Templates library written in C
-Summary(pl):	Biblioteka szablonów napisana w C
+Summary(pl.UTF-8):   Biblioteka szablonÃ³w napisana w C
 Name:		libtemplate
 Version:	1.5
 Release:	1
@@ -23,27 +23,27 @@ This software is free to use on any web site, commercial or otherwise.
 A technical support contract, including installation and compiling
 assistance, may be purchased.
 
-%description -l pl
-Je¿eli rekompilowanie programu CGI za ka¿dym razem kiedy kto¶ chce
-zmieniæ kod HTML staje siê mêcz±ce, pora wybróbowaæ szablony.
-Libtemplate to ³atwy w u¿yciu interfejs C pozwalaj±cy u¿ywaæ tego
-samego rodzaju szablonów, co w aplikacjach Lazarusa.
+%description -l pl.UTF-8
+JeÅ¼eli rekompilowanie programu CGI za kaÅ¼dym razem kiedy ktoÅ› chce
+zmieniÄ‡ kod HTML staje siÄ™ mÄ™czÄ…ce, pora wybrÃ³bowaÄ‡ szablony.
+Libtemplate to Å‚atwy w uÅ¼yciu interfejs C pozwalajÄ…cy uÅ¼ywaÄ‡ tego
+samego rodzaju szablonÃ³w, co w aplikacjach Lazarusa.
 
-Ten kod jest darmowy do u¿ywania na dowolnych stronach WWW, tak¿e
-komercyjnych. Mo¿na natomiast op³aciæ wsparcie techniczne, wraz z
-pomoc± przy instalacji i kompilacji.
+Ten kod jest darmowy do uÅ¼ywania na dowolnych stronach WWW, takÅ¼e
+komercyjnych. MoÅ¼na natomiast opÅ‚aciÄ‡ wsparcie techniczne, wraz z
+pomocÄ… przy instalacji i kompilacji.
 
 %package devel
 Summary:	Header files for libtemplate library
-Summary(pl):	Pliki nag³ówkowe biblioteki libtemplate
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki libtemplate
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for libtemplate library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki libtemplate.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki libtemplate.
 
 %prep
 %setup -q
