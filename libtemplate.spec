@@ -1,7 +1,7 @@
 # TODO:
 # - modify the library to build dynamic-one
 Summary:	Templates library written in C
-Summary(pl.UTF-8):   Biblioteka szablonów napisana w C
+Summary(pl.UTF-8):	Biblioteka szablonów napisana w C
 Name:		libtemplate
 Version:	1.5
 Release:	1
@@ -35,7 +35,7 @@ pomocą przy instalacji i kompilacji.
 
 %package devel
 Summary:	Header files for libtemplate library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libtemplate
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libtemplate
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
